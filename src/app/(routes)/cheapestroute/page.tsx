@@ -76,12 +76,12 @@ const CheapestRoutePage = () => {
       {data && (
         <div className={styles.infoContainer}>
           <h1>Route details</h1>
-          <p>
+          <div className={styles.routeInfo}>
             Origin: {data.from.name} ({data.from.code})
-          </p>
-          <p>
+          </div>
+          <div className={styles.routeInfo}>
             Destination: {data.to.name} ({data.to.code})
-          </p>
+          </div>
         </div>
       )}
     </div>

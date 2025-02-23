@@ -1,3 +1,7 @@
+https://github.com/user-attachments/assets/99877ad8-5ddf-4d74-a074-26ebc30ac638
+
+# Star seeker
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -16,21 +20,24 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Add .env file in root directory and add NEXT_PUBLIC_API_KEY.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## App features
 
-## Learn More
+Gate list - I moved this to its own "gates info" page rather than home page, aware this is contrary to the briefing document but thought it was better UI.
 
-To learn more about Next.js, take a look at the following resources:
+Journey cost page - Section 2 of briefing document
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Gate details page - Section 3 of briefing document
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Cheapest route page - Section 4 of briefing document
 
-## Deploy on Vercel
+## Approach
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I have used CSS modules for styling.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+I used the fetch API for api requests.
+
+In terms of order I completed the section 3 first, then 2 and then 4.
+
+This made more sense to me as code between sections 2 and 4 were reusable.

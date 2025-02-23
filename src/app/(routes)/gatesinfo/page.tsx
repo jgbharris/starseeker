@@ -45,16 +45,16 @@ const GatesPage = () => {
                   pathname: `/gates/${gate.code}`,
                 }}
               >
-                <h3>Name: {gate.name}</h3>
+                <h3 className={styles.link}>Name: {gate.name}</h3>
               </Link>
-              <p>Gate code: {gate.code}</p>
+              <p className={styles.code}>Gate code: {gate.code}</p>
             </div>
             <div className={styles.gateLinks}>
               <p>Links:</p>
               {gate.links.map((link) => (
                 <div key={link.code}>
-                  <p>Gate code: {link.code}</p>
-                  <p>hu: {link.hu}</p>
+                  <p className={styles.linkItem}>Gate code: {link.code}</p>
+                  <p className={styles.linkItem}>hu: {link.hu}</p>
                 </div>
               ))}
             </div>

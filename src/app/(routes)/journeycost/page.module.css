@@ -19,10 +19,10 @@
   width: 50%;
   padding: 20px;
   text-align: center;
+}
 
-  p {
-    margin-top: 20px;
-  }
+.infoPoint {
+  margin-top: 20px;
 }
 
 .button {

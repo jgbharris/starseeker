@@ -5,26 +5,26 @@
   padding-left: 10px;
   padding-bottom: 30px;
   border-bottom: 1px solid #e0e0e0;
+}
 
-  a {
-    color: blue;
-    :hover {
-      color: lightblue;
-    }
-  }
+.link {
+  color: blue;
+}
 
-  p {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
+.link:hover {
+  color: lightblue;
+}
+
+.code {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .gateLinks {
   display: flex;
   flex-direction: column;
   margin-right: 50px;
-
-  p {
-    margin-bottom: 10px;
-  }
+}
+.linkItem {
+  margin-bottom: 10px;
 }

@@ -87,11 +87,27 @@ const JourneyCostPage = () => {
         <h1>Journey Cost</h1>
         {data && (
           <div>
-            <div>{<p>Currency: {data.currency}</p>}</div>
-            <div>{<p>Journey Cost: {data.journeyCost}</p>}</div>
-            <div>{<p>Parking Fee: {data.parkingFee}</p>}</div>
             <div>
-              {<p>Recommended Transport: {data.recommendedTransport.name}</p>}
+              {<p className={styles.infoPoint}>Currency: {data.currency}</p>}
+            </div>
+            <div>
+              {
+                <p className={styles.infoPoint}>
+                  Journey Cost: {data.journeyCost}
+                </p>
+              }
+            </div>
+            <div>
+              {
+                <p className={styles.infoPoint}>
+                  Parking Fee: {data.parkingFee}
+                </p>
+              }
+            </div>
+            <div>
+              <p className={styles.infoPoint}>
+                Recommended Transport: {data.recommendedTransport.name}
+              </p>
             </div>
           </div>
         )}

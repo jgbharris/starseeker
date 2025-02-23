@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className={styles.title}>
         <span>STAR SEEKER</span>
-        <p>LET THE JOURNEY BEGIN</p>
+        <p className={styles.subtitle}>LET THE JOURNEY BEGIN</p>
       </div>
       <StartButton />
     </div>
