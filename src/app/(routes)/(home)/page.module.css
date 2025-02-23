@@ -1,0 +1,33 @@
+.page {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  min-height: 100svh;
+  cursor: url("/cursor.cur"), auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 100px;
+  z-index: 100;
+  padding-left: 20px;
+  padding-right: 20px;
+  p {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+}
