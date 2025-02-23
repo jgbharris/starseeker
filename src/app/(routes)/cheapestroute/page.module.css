@@ -1,0 +1,51 @@
+.pageContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-right: 1px solid #d0d5dd;
+  padding: 20px;
+}
+
+.infoContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 20px;
+
+  p {
+    margin-top: 20px;
+  }
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pageContainer {
+    flex-direction: column;
+  }
+
+  .formContainer {
+    border: none;
+    width: 100%;
+  }
+
+  .infoContainer {
+    width: 100%;
+  }
+}
